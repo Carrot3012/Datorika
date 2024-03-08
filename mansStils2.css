@@ -1,0 +1,45 @@
+/* mansStils2.css */
+
+body {
+    background-image: url('pictures/background2.jpg');
+    background-size: cover;
+    color: rgb(255, 78, 78); /* Teksta krāsa baltā */
+}
+
+header {
+    background-color: rgba(255, 0, 0, 0.5); /* Puscaurspīdīga melna fons virsrakstam */
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgba(255, 73, 73, 0); /* Apmales baltā krāsā */
+}
+
+caption {
+    color: rgb(23, 114, 64); /* Tabulas virsraksta teksta krāsa baltā */
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: rgba(255, 190, 190, 0.5); /* Puscaurspīdīga melna fons tabulas galvenajām kolonnām */
+    color: rgb(172, 76, 76); /* Tabulas galveno kolonnu teksta krāsa baltā */
+}
+
+footer {
+    background-color: rgba(252, 121, 121, 0.5, 0.5); /* Puscaurspīdīga melna fons apakšējam blokam */
+    color: rgb(39, 141, 93); /* Apakšējā teksta krāsa baltā */
+    text-align: center;
+    padding: 10px;
+}
+
